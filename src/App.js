@@ -47,7 +47,7 @@ function App(props) {
                 <span onClick={(e) => {let 따봉딮카피 = [...따봉]; 따봉딮카피[i] = 따봉[i] + 1; set따봉(따봉딮카피); e.stopPropagation()}}>
                   👍
                   </span>
-                  {따봉[i]}
+                  {따봉[i]} 
                   </h4>
               <p>11월 27일 발행</p>
               <button onClick={()=>{
